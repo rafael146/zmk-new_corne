@@ -13,7 +13,7 @@ layers:
   - O
   - P
   - {t: '$$mdi:backspace$$', type: backspace}
-  - '&td0'
+  - $$mdi:apple-keyboard-shift$$
   - A
   - S
   - D
@@ -27,7 +27,7 @@ layers:
   - K
   - L
   - {t: ;, s: ':'}
-  - {t: '''', s: '"'}
+  - $$mdi:arrow-up-bold$$
   - $$mdi:apple-keyboard-control$$
   - Z
   - X
@@ -76,7 +76,7 @@ layers:
   - \
   - {t: '''', s: '"'}
   - {t: ;, s: ':'}
-  - {t: '''', s: '"'}
+  - $$mdi:arrow-down-bold$$
   - {t: '$$mdi:transfer$$', type: trans}
   - RGB OFF
   - RGB ON
@@ -90,7 +90,7 @@ layers:
   - {t: /, s: '?'}
   - RGB BRD
   - END
-  - {t: '''', s: '"'}
+  - {t: '`', s: '~'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
