@@ -28,7 +28,7 @@ layers:
   - K
   - L
   - {t: ;, s: ':'}
-  - $$mdi:arrow-up-bold$$
+  - HOME
   - $$mdi:apple-keyboard-control$$
   - Z
   - X
@@ -56,7 +56,7 @@ layers:
   - {t: '3', s: '#'}
   - {t: '4', s: $}
   - {t: '5', s: '%'}
-  - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
+  - PgUp
   - {t: '6', s: ^}
   - {t: '7', s: '&'}
   - {t: '8', s: '*'}
@@ -77,7 +77,7 @@ layers:
   - \
   - {t: '''', s: '"'}
   - {t: ;, s: ':'}
-  - $$mdi:arrow-down-bold$$
+  - END
   - BT CLR ALL
   - RGB OFF
   - RGB ON
@@ -85,7 +85,7 @@ layers:
   - RGB BRD
   - RGB EFF
   - $$mdi:volume-off$$
-  - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
+  - PgDn
   - {t: '-', s: _}
   - {t: '=', s: +}
   - {t: /, s: '?'}
