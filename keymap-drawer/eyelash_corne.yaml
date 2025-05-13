@@ -90,7 +90,7 @@ layers:
   - {t: '=', s: +}
   - {t: /, s: '?'}
   - RGB SAI
-  - END
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '`', s: '~'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
