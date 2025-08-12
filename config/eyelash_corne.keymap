@@ -64,10 +64,10 @@
         lower_layer {
             display-name = "NUMBER";
             bindings = <
-&caps_word      &kp N1           &kp N2          &kp N3           &kp N4           &kp N5                                         &kp PAGE_UP                     &kp N6            &kp N7             &kp N8                &kp N9           &kp N0    &kp DEL
-&trans          &trans           &bt BT_SEL 0    &bt BT_SEL 1     &bt BT_SEL 2     &bt BT_SEL 3                   &mmv MOVE_LEFT  &mkp LCLK      &mmv MOVE_RIGHT  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp NON_US_BACKSLASH  &kp SQT          &kp SEMI  &kp END
-&bt BT_CLR_ALL  &rgb_ug RGB_OFF  &rgb_ug RGB_ON  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &rgb_ug RGB_EFF  &kp C_MUTE                    &kp PAGE_DOWN                   &kp MINUS         &kp EQUAL          &kp SLASH             &rgb_ug RGB_SAI  &trans    &kp GRAVE
-                                                 &trans           &trans           &trans                                                                         &kp INS           &kp DEL            &trans
+&caps_word  &kp N1           &kp N2          &kp N3           &kp N4           &kp N5                                         &kp PAGE_UP                     &kp N6            &kp N7             &kp N8                &kp N9           &kp N0    &kp DEL
+&trans      &bt BT_SEL 0     &bt BT_SEL 1    &bt BT_SEL 2     &bt BT_SEL 3     &bt BT_SEL 4                   &mmv MOVE_LEFT  &mkp LCLK      &mmv MOVE_RIGHT  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp NON_US_BACKSLASH  &kp SQT          &kp SEMI  &kp END
+&trans      &rgb_ug RGB_OFF  &rgb_ug RGB_ON  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &rgb_ug RGB_EFF  &kp C_MUTE                    &kp PAGE_DOWN                   &kp MINUS         &kp EQUAL          &kp SLASH             &rgb_ug RGB_SAI  &trans    &kp GRAVE
+                                             &trans           &trans           &trans                                                                         &kp INS           &kp DEL            &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
@@ -76,10 +76,10 @@
         raise_layer {
             display-name = "SYMBOL";
             bindings = <
-&trans  &kp EXCL      &kp AT        &kp HASH   &kp DLLR   &kp PRCNT                            &mmv MOVE_UP                     &kp CARET       &kp AMPS         &kp ASTRK     &kp LPAR           &kp RPAR  &kp BSPC
-&trans  &bt BT_CLR    &mkp LCLK     &mkp MCLK  &mkp RCLK  &mkp MB4             &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp PIPE      &kp DOUBLE_QUOTES  &trans    &trans
-&trans  &out OUT_USB  &out OUT_BLE  &none      &none      &mkp MB5   &trans                    &mmv MOVE_DOWN                   &kp UNDER       &kp PLUS         &kp QUESTION  &trans             &trans    &kp TILDE
-                                    &trans     &trans     &kp SPACE                                                             &kp RET         &trans           &trans
+&trans          &kp EXCL    &kp AT        &kp HASH      &kp DLLR   &kp PRCNT                            &mmv MOVE_UP                     &kp CARET       &kp AMPS         &kp ASTRK     &kp LPAR           &kp RPAR  &kp BSPC
+&trans          &trans      &mkp LCLK     &mkp MCLK     &mkp RCLK  &mkp MB4             &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp PIPE      &kp DOUBLE_QUOTES  &trans    &trans
+&bt BT_CLR_ALL  &bt BT_CLR  &out OUT_USB  &out OUT_BLE  &none      &mkp MB5   &trans                    &mmv MOVE_DOWN                   &kp UNDER       &kp PLUS         &kp QUESTION  &trans             &trans    &kp TILDE
+                                          &trans        &trans     &kp SPACE                                                             &kp RET         &trans           &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
